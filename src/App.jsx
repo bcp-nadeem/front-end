@@ -5,7 +5,7 @@ import { AuthProvider } from './store/AuthContext.jsx';
 
 function App() {
   return (
-    //browser router
+    //browser router//
     <AuthProvider>
     <RouterProvider router={routes} />
     </AuthProvider>
